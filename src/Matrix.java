@@ -2,10 +2,10 @@ import java.util.Random;
 
 public class Matrix {
     public static void main(String[] args) {
-        m(5);
+        matr(5);
     }
 
-    static void m(int N) {
+    static void matr(int N) {
         Random random = new Random();
         int[][] m = new int[N][N];
         for (int r = 0; r < N; r++) {
