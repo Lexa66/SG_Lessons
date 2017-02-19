@@ -4,8 +4,8 @@ public class Strings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String text = sc.nextLine();
-        space(sc.nextLine());
-        task2(sc.nextLine());
+        space(text);
+        task2(text);
         task3(text);
     }
 
