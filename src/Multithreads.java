@@ -4,7 +4,7 @@ public class Multithreads {
     private static class WorkerThread extends Thread {
         public void run() {
             int m = 0;
-            int x=0;
+            int x = 0;
             int tmp;
             for (int i = 1; i <= 10000; i++){
                 tmp = getDividerAmount(i);
